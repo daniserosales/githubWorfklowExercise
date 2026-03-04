@@ -1,8 +1,5 @@
 name: Deploy to UAT
-on[
-  push:
-    branches:
-      - main]
+on: [push]
 jobs:
   test:
     runs-on: ubuntu-latest
